@@ -1,7 +1,7 @@
 {
-  "name": "pxt-microbit",
-  "version": "1.4.7",
-  "description": "micro:bit target for Microsoft MakeCode (PXT)",
+  "name": "pxt-raspberrypi",
+  "version": "2.0.3",
+  "description": "raspberrypi target for Microsoft MakeCode (PXT)",
   "keywords": [
     "JavaScript",
     "education",
@@ -9,11 +9,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Microsoft/pxt-microbit.git"
+    "url": "git+https://github.com/gormantec/pxt-raspberrypi.git"
   },
-  "author": "",
+  "author": "Gorman Technology",
   "license": "MIT",
-  "homepage": "https://github.com/Microsoft/pxt-microbit#readme",
+  "homepage": "https://github.com/gormantec/pxt-raspberrypi#readme",
   "files": [
     "README.md",
     "pxtarget.json",

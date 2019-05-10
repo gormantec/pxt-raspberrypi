@@ -1,9 +1,9 @@
 {
-    "id": "microbit",
-    "nickname": "microbit",
-    "name": "makecode.microbit.org",
-    "title": "Microsoft MakeCode for micro:bit",
-    "description": "A Blocks / JavaScript code editor for the micro:bit powered by Microsoft MakeCode.",
+    "id": "raspberrypi",
+    "nickname": "raspberrypi",
+    "name": "makecode.raspberrypi.org",
+    "title": "Microsoft MakeCode for RaspberryPi",
+    "description": "A Blocks / JavaScript code editor for the RaspberryPi, powered by Microsoft MakeCode.",
     "corepkg": "core",
     "bundleddirs": [
         "libs/core",
