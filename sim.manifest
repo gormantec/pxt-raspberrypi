@@ -1,0 +1,9 @@
+CACHE MANIFEST
+
+CACHE:
+/pxt-raspberrypi/bluebird.min.js
+/pxt-raspberrypi/pxtsim.js
+/pxt-raspberrypi/sim.js
+
+NETWORK:
+*

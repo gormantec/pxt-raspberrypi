@@ -1,0 +1,80 @@
+CACHE MANIFEST
+
+CACHE:
+/pxt-raspberrypi/semantic.js
+/pxt-raspberrypi/main.js
+/pxt-raspberrypi/pxtapp.js
+/pxt-raspberrypi/typescript.js
+/pxt-raspberrypi/marked/marked.min.js
+/pxt-raspberrypi/highlight.js/highlight.pack.js
+/pxt-raspberrypi/jquery.js
+/pxt-raspberrypi/pxtlib.js
+/pxt-raspberrypi/pxtcompiler.js
+/pxt-raspberrypi/pxtpy.js
+/pxt-raspberrypi/pxtblockly.js
+/pxt-raspberrypi/pxtwinrt.js
+/pxt-raspberrypi/pxteditor.js
+/pxt-raspberrypi/pxtsim.js
+/pxt-raspberrypi/pxtembed.js
+/pxt-raspberrypi/pxtworker.js
+/pxt-raspberrypi/pxtweb.js
+/pxt-raspberrypi/blockly.css
+/pxt-raspberrypi/semantic.css
+/pxt-raspberrypi/rtlsemantic.css
+
+
+/pxt-raspberrypi/editor.js
+/pxt-raspberrypi/fieldeditors.js
+
+# blockly
+/pxt-raspberrypi/blockly/media/sprites.png
+/pxt-raspberrypi/blockly/media/click.mp3
+/pxt-raspberrypi/blockly/media/disconnect.wav
+/pxt-raspberrypi/blockly/media/delete.mp3
+
+# monaco; keep in sync with webapp/public/index.html
+/pxt-raspberrypi/vs/loader.js
+/pxt-raspberrypi/vs/base/worker/workerMain.js
+/pxt-raspberrypi/vs/basic-languages/src/bat.js
+/pxt-raspberrypi/vs/basic-languages/src/cpp.js
+/pxt-raspberrypi/vs/basic-languages/src/python.js
+/pxt-raspberrypi/vs/basic-languages/src/markdown.js
+/pxt-raspberrypi/vs/editor/editor.main.css
+/pxt-raspberrypi/vs/editor/editor.main.js
+/pxt-raspberrypi/vs/editor/editor.main.nls.js
+/pxt-raspberrypi/vs/language/json/jsonMode.js
+/pxt-raspberrypi/vs/language/json/jsonWorker.js
+/pxt-raspberrypi/vs/language/typescript/lib/typescriptServices.js
+/pxt-raspberrypi/vs/language/typescript/src/mode.js
+/pxt-raspberrypi/vs/language/typescript/src/worker.js
+
+# charts
+/pxt-raspberrypi/smoothie/smoothie_compressed.js
+/pxt-raspberrypi/images/Bars_black.gif
+
+# gifjs
+/pxt-raspberrypi/gifjs/gif.js
+
+# ai
+/pxt-raspberrypi/ai.0.js
+
+/pxt-raspberrypi/worker.js
+/pxt-raspberrypi/monacoworker.js
+
+# ver Sun May 12 2019 18:34:44 GMT+1000 (AEST)
+
+# target
+/pxt-raspberrypi/docs/static/logo.portrait.white.svg
+/pxt-raspberrypi/docs/static/logo.square.white.svg
+/pxt-raspberrypi/docs/static/logo.square.white.svg
+/pxt-raspberrypi/docs/static/logo.portrait.black.svg
+/pxt-raspberrypi/docs/static/icons/apple-touch-icon.png
+/pxt-raspberrypi/docs/static/icons/apple-touch-icon.png
+/pxt-raspberrypi/docs/static/Microsoft-logo_rgb_c-gray-square.png
+/pxt-raspberrypi/docs/static/Microsoft-logo_rgb_c-white.png
+/pxt-raspberrypi/docs/static/hero.png
+
+/pxt-raspberrypi/target.js
+  
+NETWORK:
+*

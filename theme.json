@@ -1,0 +1,2193 @@
+{
+  "accentColor": "#5C005C",
+  "logoUrl": "https://microbit.org/code/",
+  "logo": "docs/static/logo.portrait.white.svg",
+  "docsLogo": "docs/static/logo.square.white.svg",
+  "portraitLogo": "docs/static/logo.square.white.svg",
+  "footerLogo": "docs/static/logo.portrait.black.svg",
+  "cardLogo": "docs/static/icons/apple-touch-icon.png",
+  "appLogo": "docs/static/icons/apple-touch-icon.png",
+  "organization": "Microsoft MakeCode",
+  "organizationUrl": "https://makecode.com/",
+  "organizationLogo": "docs/static/Microsoft-logo_rgb_c-gray-square.png",
+  "organizationWideLogo": "docs/static/Microsoft-logo_rgb_c-white.png",
+  "homeScreenHero": "docs/static/hero.png",
+  "homeUrl": "https://git.gormantec.com/",
+  "embedUrl": "https://git.gormantec.com/",
+  "shareUrl": "https://git.gormantec.com/",
+  "privacyUrl": "https://git.gormantec.com/privacy",
+  "termsOfUseUrl": "https://git.gormantec.com/termsofuse",
+  "githubUrl": "https://github.com/Microsoft/pxt-microbit",
+  "boardName": "micro:bit",
+  "driveDisplayName": "MICROBIT",
+  "appStoreID": "1092687276",
+  "mobileSafariDownloadProtocol": "microbithex://?data",
+  "crowdinProject": "kindscript",
+  "extendEditor": true,
+  "extendFieldEditors": true,
+  "enableTrace": true,
+  "ignoreDocsErrors": true,
+  "experiments": [
+    "allowPackageExtensions",
+    "instructions",
+    "debugger",
+    "debugExtensionCode",
+    "bluetoothUartConsole",
+    "bluetoothPartialFlashing",
+    "simScreenshot",
+    "simGif",
+    "qrCode"
+  ],
+  "bluetoothUartFilters": [
+    {
+      "namePrefix": "BBC micro:bit"
+    }
+  ],
+  "docMenu": [
+    {
+      "name": "Support",
+      "path": "https://support.microbit.org/"
+    },
+    {
+      "name": "Reference",
+      "path": "/reference"
+    },
+    {
+      "name": "Blocks",
+      "path": "/blocks"
+    },
+    {
+      "name": "JavaScript",
+      "path": "/javascript"
+    },
+    {
+      "name": "Hardware",
+      "path": "/device"
+    },
+    {
+      "name": "Buy",
+      "path": "https://microbit.org/resellers"
+    }
+  ],
+  "hasReferenceDocs": true,
+  "usbDocs": "/device/usb",
+  "usbHelp": [
+    {
+      "name": "connection",
+      "os": "*",
+      "browser": "*",
+      "path": "/static/mb/device/usb-generic.jpg"
+    },
+    {
+      "name": "connection",
+      "os": "mac",
+      "browser": "*",
+      "path": "/static/mb/device/usb-mac.jpg"
+    },
+    {
+      "name": "save",
+      "os": "windows",
+      "browser": "firefox",
+      "path": "/static/mb/device/usb-windows-firefox-1.png"
+    },
+    {
+      "name": "save",
+      "os": "mac",
+      "browser": "firefox",
+      "path": "/static/mb/device/usb-osx-firefox-1.jpg"
+    },
+    {
+      "name": "save",
+      "os": "mac",
+      "browser": "chrome",
+      "path": "/static/mb/device/usb-osx-chrome.png"
+    },
+    {
+      "name": "save",
+      "os": "windows",
+      "browser": "edge",
+      "path": "/static/mb/device/usb-windows-edge-1.png"
+    },
+    {
+      "name": "save",
+      "os": "windows",
+      "browser": "ie",
+      "path": "/static/mb/device/usb-windows-ie11-1.png"
+    },
+    {
+      "name": "save",
+      "os": "windows",
+      "browser": "chrome",
+      "path": "/static/mb/device/usb-windows-chrome.png"
+    },
+    {
+      "name": "copy",
+      "os": "mac",
+      "browser": "*",
+      "path": "/static/mb/device/usb-osx-dnd.png"
+    },
+    {
+      "name": "copy",
+      "os": "windows",
+      "browser": "*",
+      "path": "/static/mb/device/usb-windows-sendto.jpg"
+    }
+  ],
+  "invertedMenu": true,
+  "coloredToolbox": true,
+  "monacoToolbox": true,
+  "hasAudio": true,
+  "blocklyOptions": {
+    "grid": {
+      "spacing": 45,
+      "length": 7,
+      "colour": "rgba(189, 195, 199, 0.30)",
+      "snap": false
+    }
+  },
+  "blockColors": {
+    "logic": "#00A4A6",
+    "loops": "#00AA00",
+    "math": "#9400D3",
+    "variables": "#DC143C",
+    "text": "#B8860B",
+    "advanced": "#00272B",
+    "functions": "#3455DB",
+    "arrays": "#E65722"
+  },
+  "highContrast": true,
+  "greenScreen": true,
+  "print": true,
+  "selectLanguage": true,
+  "availableLocales": [
+    "en",
+    "ar",
+    "cs",
+    "da",
+    "de",
+    "el",
+    "es-ES",
+    "fi",
+    "fr",
+    "hu",
+    "is",
+    "it",
+    "ja",
+    "ko",
+    "nl",
+    "no",
+    "pt-BR",
+    "pt-PT",
+    "ru",
+    "si-LK",
+    "sk",
+    "sv-SE",
+    "tr",
+    "uk",
+    "zh-CN",
+    "zh-TW"
+  ],
+  "monacoColors": {
+    "editor.background": "#ecf0f1"
+  },
+  "browserDbPrefixes": {
+    "1": "v1"
+  },
+  "editorVersionPaths": {
+    "0": "v0"
+  },
+  "scriptManager": true,
+  "simGifTransparent": "rgba(0,0,0,0)",
+  "simGifMaxFrames": 44,
+  "simScreenshotMaxUriLength": 300000,
+  "TOC": [
+    {
+      "name": "About",
+      "subitems": [],
+      "path": "/about"
+    },
+    {
+      "name": "FAQ",
+      "subitems": [],
+      "path": "/faq"
+    },
+    {
+      "name": "Projects",
+      "subitems": [],
+      "path": "/projects"
+    },
+    {
+      "name": "Support",
+      "subitems": [],
+      "path": "https://support.microbit.org/"
+    },
+    {
+      "name": "Courses",
+      "subitems": [
+        {
+          "name": "CS Intro",
+          "subitems": [
+            {
+              "name": "About",
+              "subitems": [],
+              "path": "/courses/csintro/about"
+            },
+            {
+              "name": "Introduction",
+              "subitems": [],
+              "path": "/courses/csintro/introduction"
+            },
+            {
+              "name": "References",
+              "subitems": [],
+              "path": "/courses/csintro/references"
+            },
+            {
+              "name": "Acknowledgements",
+              "subitems": [],
+              "path": "/courses/csintro/acknowledgements"
+            },
+            {
+              "name": "Making",
+              "subitems": [
+                {
+                  "name": "Introduction",
+                  "subitems": [],
+                  "path": "/courses/csintro/making/introduction"
+                },
+                {
+                  "name": "Unplugged",
+                  "subitems": [],
+                  "path": "/courses/csintro/making/unplugged"
+                },
+                {
+                  "name": "Walkthrough",
+                  "subitems": [],
+                  "path": "/courses/csintro/making/activity"
+                },
+                {
+                  "name": "Project",
+                  "subitems": [],
+                  "path": "/courses/csintro/making/project"
+                },
+                {
+                  "name": "Standards",
+                  "subitems": [],
+                  "path": "/courses/csintro/making/standards"
+                }
+              ],
+              "path": "/courses/csintro/making"
+            },
+            {
+              "name": "Algorithms",
+              "subitems": [
+                {
+                  "name": "Overview",
+                  "subitems": [],
+                  "path": "/courses/csintro/algorithms/overview"
+                },
+                {
+                  "name": "Unplugged",
+                  "subitems": [],
+                  "path": "/courses/csintro/algorithms/unplugged"
+                },
+                {
+                  "name": "Activity",
+                  "subitems": [],
+                  "path": "/courses/csintro/algorithms/activity"
+                },
+                {
+                  "name": "Project",
+                  "subitems": [],
+                  "path": "/courses/csintro/algorithms/project"
+                },
+                {
+                  "name": "Standards",
+                  "subitems": [],
+                  "path": "/courses/csintro/algorithms/standards"
+                }
+              ],
+              "path": "/courses/csintro/algorithms"
+            },
+            {
+              "name": "Variables",
+              "subitems": [
+                {
+                  "name": "Overview",
+                  "subitems": [],
+                  "path": "/courses/csintro/variables/overview"
+                },
+                {
+                  "name": "Unplugged",
+                  "subitems": [],
+                  "path": "/courses/csintro/variables/unplugged"
+                },
+                {
+                  "name": "Activity",
+                  "subitems": [],
+                  "path": "/courses/csintro/variables/activity"
+                },
+                {
+                  "name": "Project",
+                  "subitems": [],
+                  "path": "/courses/csintro/variables/project"
+                },
+                {
+                  "name": "Standards",
+                  "subitems": [],
+                  "path": "/courses/csintro/variables/standards"
+                }
+              ],
+              "path": "/courses/csintro/variables"
+            },
+            {
+              "name": "Conditionals",
+              "subitems": [
+                {
+                  "name": "Overview",
+                  "subitems": [],
+                  "path": "/courses/csintro/conditionals/overview"
+                },
+                {
+                  "name": "Unplugged",
+                  "subitems": [],
+                  "path": "/courses/csintro/conditionals/unplugged"
+                },
+                {
+                  "name": "Activity",
+                  "subitems": [],
+                  "path": "/courses/csintro/conditionals/activity"
+                },
+                {
+                  "name": "Project",
+                  "subitems": [],
+                  "path": "/courses/csintro/conditionals/project"
+                },
+                {
+                  "name": "Standards",
+                  "subitems": [],
+                  "path": "/courses/csintro/conditionals/standards"
+                }
+              ],
+              "path": "/courses/csintro/conditionals"
+            },
+            {
+              "name": "Iteration",
+              "subitems": [
+                {
+                  "name": "Overview",
+                  "subitems": [],
+                  "path": "/courses/csintro/iteration/overview"
+                },
+                {
+                  "name": "Unplugged",
+                  "subitems": [],
+                  "path": "/courses/csintro/iteration/unplugged"
+                },
+                {
+                  "name": "Activity",
+                  "subitems": [],
+                  "path": "/courses/csintro/iteration/activity"
+                },
+                {
+                  "name": "Project",
+                  "subitems": [],
+                  "path": "/courses/csintro/iteration/project"
+                },
+                {
+                  "name": "Standards",
+                  "subitems": [],
+                  "path": "/courses/csintro/iteration/standards"
+                }
+              ],
+              "path": "/courses/csintro/iteration"
+            },
+            {
+              "name": "Mini-project",
+              "subitems": [
+                {
+                  "name": "Review",
+                  "subitems": [],
+                  "path": "/courses/csintro/miniproject/review"
+                },
+                {
+                  "name": "Activity",
+                  "subitems": [],
+                  "path": "/courses/csintro/miniproject/activity"
+                },
+                {
+                  "name": "Project",
+                  "subitems": [],
+                  "path": "/courses/csintro/miniproject/project"
+                },
+                {
+                  "name": "Standards",
+                  "subitems": [],
+                  "path": "/courses/csintro/miniproject/standards"
+                }
+              ],
+              "path": "/courses/csintro/miniproject"
+            },
+            {
+              "name": "Coordinates",
+              "subitems": [
+                {
+                  "name": "Overview",
+                  "subitems": [],
+                  "path": "/courses/csintro/coordinates/overview"
+                },
+                {
+                  "name": "Unplugged",
+                  "subitems": [],
+                  "path": "/courses/csintro/coordinates/unplugged"
+                },
+                {
+                  "name": "Activity",
+                  "subitems": [],
+                  "path": "/courses/csintro/coordinates/activity"
+                },
+                {
+                  "name": "Project",
+                  "subitems": [],
+                  "path": "/courses/csintro/coordinates/project"
+                },
+                {
+                  "name": "Standards",
+                  "subitems": [],
+                  "path": "/courses/csintro/coordinates/standards"
+                }
+              ],
+              "path": "/courses/csintro/coordinates"
+            },
+            {
+              "name": "Booleans",
+              "subitems": [
+                {
+                  "name": "Overview",
+                  "subitems": [],
+                  "path": "/courses/csintro/booleans/overview"
+                },
+                {
+                  "name": "Unplugged",
+                  "subitems": [],
+                  "path": "/courses/csintro/booleans/unplugged"
+                },
+                {
+                  "name": "Activity",
+                  "subitems": [],
+                  "path": "/courses/csintro/booleans/activity"
+                },
+                {
+                  "name": "Project",
+                  "subitems": [],
+                  "path": "/courses/csintro/booleans/project"
+                },
+                {
+                  "name": "Standards",
+                  "subitems": [],
+                  "path": "/courses/csintro/booleans/standards"
+                }
+              ],
+              "path": "/courses/csintro/booleans"
+            },
+            {
+              "name": "Binary",
+              "subitems": [
+                {
+                  "name": "Overview",
+                  "subitems": [],
+                  "path": "/courses/csintro/binary/overview"
+                },
+                {
+                  "name": "Unplugged",
+                  "subitems": [],
+                  "path": "/courses/csintro/binary/unplugged"
+                },
+                {
+                  "name": "Activity",
+                  "subitems": [],
+                  "path": "/courses/csintro/binary/activity"
+                },
+                {
+                  "name": "Project",
+                  "subitems": [],
+                  "path": "/courses/csintro/binary/project"
+                },
+                {
+                  "name": "Standards",
+                  "subitems": [],
+                  "path": "/courses/csintro/binary/standards"
+                }
+              ],
+              "path": "/courses/csintro/binary"
+            },
+            {
+              "name": "Radio",
+              "subitems": [
+                {
+                  "name": "Overview",
+                  "subitems": [],
+                  "path": "/courses/csintro/radio/overview"
+                },
+                {
+                  "name": "Unplugged",
+                  "subitems": [],
+                  "path": "/courses/csintro/radio/unplugged"
+                },
+                {
+                  "name": "Activity",
+                  "subitems": [],
+                  "path": "/courses/csintro/radio/activity"
+                },
+                {
+                  "name": "Project",
+                  "subitems": [],
+                  "path": "/courses/csintro/radio/project"
+                },
+                {
+                  "name": "Standards",
+                  "subitems": [],
+                  "path": "/courses/csintro/radio/standards"
+                }
+              ],
+              "path": "/courses/csintro/radio"
+            },
+            {
+              "name": "Arrays",
+              "subitems": [
+                {
+                  "name": "Overview",
+                  "subitems": [],
+                  "path": "/courses/csintro/arrays/overview"
+                },
+                {
+                  "name": "Unplugged",
+                  "subitems": [],
+                  "path": "/courses/csintro/arrays/unplugged"
+                },
+                {
+                  "name": "Activity",
+                  "subitems": [],
+                  "path": "/courses/csintro/arrays/activity"
+                },
+                {
+                  "name": "Project",
+                  "subitems": [],
+                  "path": "/courses/csintro/arrays/project"
+                },
+                {
+                  "name": "Standards",
+                  "subitems": [],
+                  "path": "/courses/csintro/arrays/standards"
+                }
+              ],
+              "path": "/courses/csintro/arrays"
+            },
+            {
+              "name": "Final Project",
+              "subitems": [
+                {
+                  "name": "Review",
+                  "subitems": [],
+                  "path": "/courses/csintro/finalproject/review"
+                },
+                {
+                  "name": "Project",
+                  "subitems": [],
+                  "path": "/courses/csintro/finalproject/project"
+                },
+                {
+                  "name": "Examples",
+                  "subitems": [],
+                  "path": "/courses/csintro/finalproject/examples"
+                },
+                {
+                  "name": "Standards",
+                  "subitems": [],
+                  "path": "/courses/csintro/finalproject/standards"
+                }
+              ],
+              "path": "/courses/csintro/finalproject"
+            }
+          ],
+          "path": "/courses/csintro"
+        },
+        {
+          "name": "Blocks to JavaScript",
+          "subitems": [
+            {
+              "name": "Hello JavaScript",
+              "subitems": [],
+              "path": "/courses/blocks-to-javascript/hello-javascript"
+            },
+            {
+              "name": "Starter Blocks",
+              "subitems": [],
+              "path": "/courses/blocks-to-javascript/starter-blocks"
+            },
+            {
+              "name": "Writing Code",
+              "subitems": [],
+              "path": "/courses/blocks-to-javascript/writing-code"
+            },
+            {
+              "name": "Conditional Loops",
+              "subitems": [],
+              "path": "/courses/blocks-to-javascript/conditional-loops"
+            },
+            {
+              "name": "Writing Functions",
+              "subitems": [],
+              "path": "/courses/blocks-to-javascript/writing-functions"
+            }
+          ],
+          "path": "/courses/blocks-to-javascript"
+        },
+        {
+          "name": "Science experiments",
+          "subitems": [
+            {
+              "name": "Data collection",
+              "subitems": [
+                {
+                  "name": "Overview",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/data-collection/overview"
+                },
+                {
+                  "name": "Setup and procedure",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/data-collection/setup-procedure"
+                },
+                {
+                  "name": "Resources",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/data-collection/resources"
+                }
+              ],
+              "path": "/courses/ucp-science/data-collection"
+            },
+            {
+              "name": "Population Traits",
+              "subitems": [
+                {
+                  "name": "Overview",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/population/overview"
+                },
+                {
+                  "name": "Setup and procedure",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/population/setup-procedure"
+                },
+                {
+                  "name": "Resources",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/population/resources"
+                }
+              ],
+              "path": "/courses/ucp-science/population"
+            },
+            {
+              "name": "Temperature",
+              "subitems": [
+                {
+                  "name": "Overview",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/temperature/overview"
+                },
+                {
+                  "name": "Setup and procedure",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/temperature/setup-procedure"
+                },
+                {
+                  "name": "Resources",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/temperature/resources"
+                }
+              ],
+              "path": "/courses/ucp-science/temperature"
+            },
+            {
+              "name": "Soil Moisture",
+              "subitems": [
+                {
+                  "name": "Overview",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/soil-moisture/overview"
+                },
+                {
+                  "name": "Setup and procedure",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/soil-moisture/setup-procedure"
+                },
+                {
+                  "name": "Resources",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/soil-moisture/resources"
+                }
+              ],
+              "path": "/courses/ucp-science/soil-moisture"
+            },
+            {
+              "name": "Gravity, Motion and Waves",
+              "subitems": [
+                {
+                  "name": "Overview",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/gravity/overview"
+                },
+                {
+                  "name": "Setup and procedure",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/gravity/setup-procedure"
+                },
+                {
+                  "name": "Resources",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/gravity/resources"
+                }
+              ],
+              "path": "/courses/ucp-science/gravity"
+            },
+            {
+              "name": "Body Electrical and Waves",
+              "subitems": [
+                {
+                  "name": "Overview",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/body-electrical/overview"
+                },
+                {
+                  "name": "Setup and procedure",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/body-electrical/setup-procedure"
+                },
+                {
+                  "name": "Resources",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/body-electrical/resources"
+                }
+              ],
+              "path": "/courses/ucp-science/body-electrical"
+            },
+            {
+              "name": "Electricity",
+              "subitems": [
+                {
+                  "name": "Overview",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/electricity/overview"
+                },
+                {
+                  "name": "Setup and procedure",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/electricity/setup-procedure"
+                },
+                {
+                  "name": "Resources",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/electricity/resources"
+                }
+              ],
+              "path": "/courses/ucp-science/electricity"
+            },
+            {
+              "name": "Rocket Acceleration",
+              "subitems": [
+                {
+                  "name": "Overview",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/rocket-acceleration/overview"
+                },
+                {
+                  "name": "Build",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/rocket-acceleration/build"
+                },
+                {
+                  "name": "Setup and procedure",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/rocket-acceleration/setup-procedure"
+                },
+                {
+                  "name": "Resources",
+                  "subitems": [],
+                  "path": "/courses/ucp-science/rocket-acceleration/resources"
+                }
+              ],
+              "path": "/courses/ucp-science/rocket-acceleration"
+            }
+          ],
+          "path": "/courses/ucp-science"
+        }
+      ],
+      "path": "/courses"
+    },
+    {
+      "name": "Reference",
+      "subitems": [
+        {
+          "name": "Basic",
+          "subitems": [
+            {
+              "name": "show number",
+              "subitems": [],
+              "path": "/reference/basic/show-number"
+            },
+            {
+              "name": "show icon",
+              "subitems": [],
+              "path": "/reference/basic/show-icon"
+            },
+            {
+              "name": "show leds",
+              "subitems": [],
+              "path": "/reference/basic/show-leds"
+            },
+            {
+              "name": "show string",
+              "subitems": [],
+              "path": "/reference/basic/show-string"
+            },
+            {
+              "name": "clear screen",
+              "subitems": [],
+              "path": "/reference/basic/clear-screen"
+            },
+            {
+              "name": "forever",
+              "subitems": [],
+              "path": "/reference/basic/forever"
+            },
+            {
+              "name": "pause",
+              "subitems": [],
+              "path": "/reference/basic/pause"
+            },
+            {
+              "name": "show arrow",
+              "subitems": [],
+              "path": "/reference/basic/show-arrow"
+            },
+            {
+              "name": "show animation",
+              "subitems": [],
+              "path": "/reference/basic/show-animation"
+            }
+          ],
+          "path": "/reference/basic"
+        },
+        {
+          "name": "Input",
+          "subitems": [
+            {
+              "name": "on button pressed",
+              "subitems": [],
+              "path": "/reference/input/on-button-pressed"
+            },
+            {
+              "name": "on gesture",
+              "subitems": [],
+              "path": "/reference/input/on-gesture"
+            },
+            {
+              "name": "on pin pressed",
+              "subitems": [],
+              "path": "/reference/input/on-pin-pressed"
+            },
+            {
+              "name": "button is pressed",
+              "subitems": [],
+              "path": "/reference/input/button-is-pressed"
+            },
+            {
+              "name": "compass heading",
+              "subitems": [],
+              "path": "/reference/input/compass-heading"
+            },
+            {
+              "name": "pin is pressed",
+              "subitems": [],
+              "path": "/reference/input/pin-is-pressed"
+            },
+            {
+              "name": "temperature",
+              "subitems": [],
+              "path": "/reference/input/temperature"
+            },
+            {
+              "name": "acceleration",
+              "subitems": [],
+              "path": "/reference/input/acceleration"
+            },
+            {
+              "name": "light level",
+              "subitems": [],
+              "path": "/reference/input/light-level"
+            },
+            {
+              "name": "rotation",
+              "subitems": [],
+              "path": "/reference/input/rotation"
+            },
+            {
+              "name": "magnetic force",
+              "subitems": [],
+              "path": "/reference/input/magnetic-force"
+            },
+            {
+              "name": "running time",
+              "subitems": [],
+              "path": "/reference/input/running-time"
+            },
+            {
+              "name": "set accelerometer range",
+              "subitems": [],
+              "path": "/reference/input/set-accelerometer-range"
+            }
+          ],
+          "path": "/reference/input"
+        },
+        {
+          "name": "Music",
+          "subitems": [
+            {
+              "name": "play tone",
+              "subitems": [],
+              "path": "/reference/music/play-tone"
+            },
+            {
+              "name": "ring tone",
+              "subitems": [],
+              "path": "/reference/music/ring-tone"
+            },
+            {
+              "name": "rest",
+              "subitems": [],
+              "path": "/reference/music/rest"
+            },
+            {
+              "name": "beat",
+              "subitems": [],
+              "path": "/reference/music/beat"
+            },
+            {
+              "name": "tempo",
+              "subitems": [],
+              "path": "/reference/music/tempo"
+            },
+            {
+              "name": "change tempo by",
+              "subitems": [],
+              "path": "/reference/music/change-tempo-by"
+            },
+            {
+              "name": "set tempo",
+              "subitems": [],
+              "path": "/reference/music/set-tempo"
+            }
+          ],
+          "path": "/reference/music"
+        },
+        {
+          "name": "Led",
+          "subitems": [
+            {
+              "name": "plot",
+              "subitems": [],
+              "path": "/reference/led/plot"
+            },
+            {
+              "name": "unplot",
+              "subitems": [],
+              "path": "/reference/led/unplot"
+            },
+            {
+              "name": "point",
+              "subitems": [],
+              "path": "/reference/led/point"
+            },
+            {
+              "name": "toggle",
+              "subitems": [],
+              "path": "/reference/led/toggle"
+            },
+            {
+              "name": "brightness",
+              "subitems": [],
+              "path": "/reference/led/brightness"
+            },
+            {
+              "name": "set brightness",
+              "subitems": [],
+              "path": "/reference/led/set-brightness"
+            },
+            {
+              "name": "stop animation",
+              "subitems": [],
+              "path": "/reference/led/stop-animation"
+            },
+            {
+              "name": "plot bar graph",
+              "subitems": [],
+              "path": "/reference/led/plot-bar-graph"
+            },
+            {
+              "name": "enable",
+              "subitems": [],
+              "path": "/reference/led/enable"
+            }
+          ],
+          "path": "/reference/led"
+        },
+        {
+          "name": "Radio",
+          "subitems": [
+            {
+              "name": "send number",
+              "subitems": [],
+              "path": "/reference/radio/send-number"
+            },
+            {
+              "name": "send value",
+              "subitems": [],
+              "path": "/reference/radio/send-value"
+            },
+            {
+              "name": "send string",
+              "subitems": [],
+              "path": "/reference/radio/send-string"
+            },
+            {
+              "name": "on received number",
+              "subitems": [],
+              "path": "/reference/radio/on-received-number"
+            },
+            {
+              "name": "on received string",
+              "subitems": [],
+              "path": "/reference/radio/on-received-string"
+            },
+            {
+              "name": "on received buffer",
+              "subitems": [],
+              "path": "/reference/radio/on-received-buffer"
+            },
+            {
+              "name": "received packet",
+              "subitems": [],
+              "path": "/reference/radio/received-packet"
+            },
+            {
+              "name": "set group",
+              "subitems": [],
+              "path": "/reference/radio/set-group"
+            },
+            {
+              "name": "set transmit power",
+              "subitems": [],
+              "path": "/reference/radio/set-transmit-power"
+            },
+            {
+              "name": "set transmit serial number",
+              "subitems": [],
+              "path": "/reference/radio/set-transmit-serial-number"
+            },
+            {
+              "name": "on data packet received",
+              "subitems": [],
+              "path": "/reference/radio/on-data-packet-received"
+            },
+            {
+              "name": "write received packet to serial",
+              "subitems": [],
+              "path": "/reference/radio/write-received-packet-to-serial"
+            }
+          ],
+          "path": "/reference/radio"
+        },
+        {
+          "name": "Game",
+          "subitems": [
+            {
+              "name": "create sprite",
+              "subitems": [],
+              "path": "/reference/game/create-sprite"
+            },
+            {
+              "name": "delete",
+              "subitems": [],
+              "path": "/reference/game/delete"
+            },
+            {
+              "name": "move",
+              "subitems": [],
+              "path": "/reference/game/move"
+            },
+            {
+              "name": "turn",
+              "subitems": [],
+              "path": "/reference/game/turn"
+            },
+            {
+              "name": "in on edge bounce",
+              "subitems": [],
+              "path": "/reference/game/if-on-edge-bounce"
+            },
+            {
+              "name": "get",
+              "subitems": [],
+              "path": "/reference/game/get"
+            },
+            {
+              "name": "set",
+              "subitems": [],
+              "path": "/reference/game/set"
+            },
+            {
+              "name": "change",
+              "subitems": [],
+              "path": "/reference/game/change"
+            },
+            {
+              "name": "is touching",
+              "subitems": [],
+              "path": "/reference/game/is-touching"
+            },
+            {
+              "name": "is touching edge",
+              "subitems": [],
+              "path": "/reference/game/is-touching-edge"
+            },
+            {
+              "name": "add score",
+              "subitems": [],
+              "path": "/reference/game/add-score"
+            },
+            {
+              "name": "score",
+              "subitems": [],
+              "path": "/reference/game/score"
+            },
+            {
+              "name": "set score",
+              "subitems": [],
+              "path": "/reference/game/set-score"
+            },
+            {
+              "name": "set life",
+              "subitems": [],
+              "path": "/reference/game/set-life"
+            },
+            {
+              "name": "add life",
+              "subitems": [],
+              "path": "/reference/game/add-life"
+            },
+            {
+              "name": "remove life",
+              "subitems": [],
+              "path": "/reference/game/remove-life"
+            },
+            {
+              "name": "start countdown",
+              "subitems": [],
+              "path": "/reference/game/start-countdown"
+            },
+            {
+              "name": "game over",
+              "subitems": [],
+              "path": "/reference/game/game-over"
+            },
+            {
+              "name": "pause",
+              "subitems": [],
+              "path": "/reference/game/pause"
+            },
+            {
+              "name": "resume",
+              "subitems": [],
+              "path": "/reference/game/resume"
+            }
+          ],
+          "path": "/reference/game"
+        },
+        {
+          "name": "Images",
+          "subitems": [
+            {
+              "name": "create image",
+              "subitems": [],
+              "path": "/reference/images/create-image"
+            },
+            {
+              "name": "create big image",
+              "subitems": [],
+              "path": "/reference/images/create-big-image"
+            },
+            {
+              "name": "show image",
+              "subitems": [],
+              "path": "/reference/images/show-image"
+            },
+            {
+              "name": "scroll image",
+              "subitems": [],
+              "path": "/reference/images/scroll-image"
+            },
+            {
+              "name": "arrow image",
+              "subitems": [],
+              "path": "/reference/images/arrow-image"
+            },
+            {
+              "name": "icon image",
+              "subitems": [],
+              "path": "/reference/images/icon-image"
+            },
+            {
+              "name": "arrow number",
+              "subitems": [],
+              "path": "/reference/images/arrow-number"
+            }
+          ],
+          "path": "/reference/images"
+        },
+        {
+          "name": "Pins",
+          "subitems": [
+            {
+              "name": "digital read pin",
+              "subitems": [],
+              "path": "/reference/pins/digital-read-pin"
+            },
+            {
+              "name": "digital write pin",
+              "subitems": [],
+              "path": "/reference/pins/digital-write-pin"
+            },
+            {
+              "name": "analog read pin",
+              "subitems": [],
+              "path": "/reference/pins/analog-read-pin"
+            },
+            {
+              "name": "analog write pin",
+              "subitems": [],
+              "path": "/reference/pins/analog-write-pin"
+            },
+            {
+              "name": "analog set period",
+              "subitems": [],
+              "path": "/reference/pins/analog-set-period"
+            },
+            {
+              "name": "map",
+              "subitems": [],
+              "path": "/reference/pins/map"
+            },
+            {
+              "name": "on pulsed",
+              "subitems": [],
+              "path": "/reference/pins/on-pulsed"
+            },
+            {
+              "name": "pulse duration",
+              "subitems": [],
+              "path": "/reference/pins/pulse-duration"
+            },
+            {
+              "name": "pulse in",
+              "subitems": [],
+              "path": "/reference/pins/pulse-in"
+            },
+            {
+              "name": "servo write pin",
+              "subitems": [],
+              "path": "/reference/pins/servo-write-pin"
+            },
+            {
+              "name": "servo set pulse",
+              "subitems": [],
+              "path": "/reference/pins/servo-set-pulse"
+            },
+            {
+              "name": "i2c read number",
+              "subitems": [],
+              "path": "/reference/pins/i2c-read-number"
+            },
+            {
+              "name": "i2c write number",
+              "subitems": [],
+              "path": "/reference/pins/i2c-write-number"
+            },
+            {
+              "name": "set pull",
+              "subitems": [],
+              "path": "/reference/pins/set-pull"
+            },
+            {
+              "name": "analog pitch",
+              "subitems": [],
+              "path": "/reference/pins/analog-pitch"
+            },
+            {
+              "name": "analog set pitch pin",
+              "subitems": [],
+              "path": "/reference/pins/analog-set-pitch-pin"
+            },
+            {
+              "name": "spi write",
+              "subitems": [],
+              "path": "/reference/pins/spi-write"
+            },
+            {
+              "name": "spi Pins",
+              "subitems": [],
+              "path": "/reference/pins/spi-pins"
+            },
+            {
+              "name": "spi format",
+              "subitems": [],
+              "path": "/reference/pins/spi-format"
+            },
+            {
+              "name": "spi frequency",
+              "subitems": [],
+              "path": "/reference/pins/spi-frequency"
+            }
+          ],
+          "path": "/reference/pins"
+        },
+        {
+          "name": "Serial",
+          "subitems": [
+            {
+              "name": "write line",
+              "subitems": [],
+              "path": "/reference/serial/write-line"
+            },
+            {
+              "name": "write number",
+              "subitems": [],
+              "path": "/reference/serial/write-number"
+            },
+            {
+              "name": "write value",
+              "subitems": [],
+              "path": "/reference/serial/write-value"
+            },
+            {
+              "name": "write string",
+              "subitems": [],
+              "path": "/reference/serial/write-string"
+            },
+            {
+              "name": "read until",
+              "subitems": [],
+              "path": "/reference/serial/read-until"
+            },
+            {
+              "name": "read line",
+              "subitems": [],
+              "path": "/reference/serial/read-line"
+            },
+            {
+              "name": "read string",
+              "subitems": [],
+              "path": "/reference/serial/read-string"
+            },
+            {
+              "name": "on data received",
+              "subitems": [],
+              "path": "/reference/serial/on-data-received"
+            },
+            {
+              "name": "redirect",
+              "subitems": [],
+              "path": "/reference/serial/redirect"
+            },
+            {
+              "name": "redirect to usb",
+              "subitems": [],
+              "path": "/reference/serial/redirect-to-usb"
+            },
+            {
+              "name": "write buffer",
+              "subitems": [],
+              "path": "/reference/serial/write-buffer"
+            },
+            {
+              "name": "read buffer",
+              "subitems": [],
+              "path": "/reference/serial/read-buffer"
+            }
+          ],
+          "path": "/reference/serial"
+        },
+        {
+          "name": "Control",
+          "subitems": [
+            {
+              "name": "in background",
+              "subitems": [],
+              "path": "/reference/control/in-background"
+            },
+            {
+              "name": "reset",
+              "subitems": [],
+              "path": "/reference/control/reset"
+            },
+            {
+              "name": "wait micros",
+              "subitems": [],
+              "path": "/reference/control/wait-micros"
+            },
+            {
+              "name": "on event",
+              "subitems": [],
+              "path": "/reference/control/on-event"
+            },
+            {
+              "name": "raise event",
+              "subitems": [],
+              "path": "/reference/control/raise-event"
+            },
+            {
+              "name": "event timestamp",
+              "subitems": [],
+              "path": "/reference/control/event-timestamp"
+            },
+            {
+              "name": "event value",
+              "subitems": [],
+              "path": "/reference/control/event-value"
+            }
+          ],
+          "path": "/reference/control"
+        },
+        {
+          "name": "Bluetooth",
+          "subitems": [
+            {
+              "name": "About",
+              "subitems": [],
+              "path": "/reference/bluetooth/about-bluetooth"
+            },
+            {
+              "name": "Pairing",
+              "subitems": [],
+              "path": "/reference/bluetooth/bluetooth-pairing"
+            },
+            {
+              "name": "on bluetooth connected",
+              "subitems": [],
+              "path": "/reference/bluetooth/on-bluetooth-connected"
+            },
+            {
+              "name": "on bluetooth disconnected",
+              "subitems": [],
+              "path": "/reference/bluetooth/on-bluetooth-disconnected"
+            },
+            {
+              "name": "start accelerometer service",
+              "subitems": [],
+              "path": "/reference/bluetooth/start-accelerometer-service"
+            },
+            {
+              "name": "start button service",
+              "subitems": [],
+              "path": "/reference/bluetooth/start-button-service"
+            },
+            {
+              "name": "start io pin service",
+              "subitems": [],
+              "path": "/reference/bluetooth/start-io-pin-service"
+            },
+            {
+              "name": "start led service",
+              "subitems": [],
+              "path": "/reference/bluetooth/start-led-service"
+            },
+            {
+              "name": "start magnetometer service",
+              "subitems": [],
+              "path": "/reference/bluetooth/start-magnetometer-service"
+            },
+            {
+              "name": "start temperature service",
+              "subitems": [],
+              "path": "/reference/bluetooth/start-temperature-service"
+            },
+            {
+              "name": "start uart service",
+              "subitems": [],
+              "path": "/reference/bluetooth/start-uart-service"
+            },
+            {
+              "name": "uart read until",
+              "subitems": [],
+              "path": "/reference/bluetooth/uart-read-until"
+            },
+            {
+              "name": "uart write string",
+              "subitems": [],
+              "path": "/reference/bluetooth/uart-write-string"
+            },
+            {
+              "name": "uart write number",
+              "subitems": [],
+              "path": "/reference/bluetooth/uart-write-number"
+            },
+            {
+              "name": "uart write value",
+              "subitems": [],
+              "path": "/reference/bluetooth/uart-write-value"
+            },
+            {
+              "name": "advertise url",
+              "subitems": [],
+              "path": "/reference/bluetooth/advertise-url"
+            },
+            {
+              "name": "stop advertising",
+              "subitems": [],
+              "path": "/reference/bluetooth/stop-advertising"
+            },
+            {
+              "name": "advertise uid",
+              "subitems": [],
+              "path": "/reference/bluetooth/advertise-uid"
+            },
+            {
+              "name": "advertise-uid-buffer",
+              "subitems": [],
+              "path": "/reference/bluetooth/advertise-uid-buffer"
+            }
+          ],
+          "path": "/reference/bluetooth"
+        },
+        {
+          "name": "Devices",
+          "subitems": [
+            {
+              "name": "tell camera to",
+              "subitems": [],
+              "path": "/reference/devices/tell-camera-to"
+            },
+            {
+              "name": "tell remote control to",
+              "subitems": [],
+              "path": "/reference/devices/tell-remote-control-to"
+            },
+            {
+              "name": "raise alert to",
+              "subitems": [],
+              "path": "/reference/devices/raise-alert-to"
+            },
+            {
+              "name": "on notified",
+              "subitems": [],
+              "path": "/reference/devices/on-notified"
+            },
+            {
+              "name": "on gamepad button",
+              "subitems": [],
+              "path": "/reference/devices/on-gamepad-button"
+            },
+            {
+              "name": "signal strength",
+              "subitems": [],
+              "path": "/reference/devices/signal-strength"
+            },
+            {
+              "name": "on signal strength changed",
+              "subitems": [],
+              "path": "/reference/devices/on-signal-strength-changed"
+            }
+          ],
+          "path": "/reference/devices"
+        }
+      ],
+      "path": "/reference"
+    },
+    {
+      "name": "Extensions",
+      "subitems": [],
+      "path": "/extensions"
+    },
+    {
+      "name": "Blocks",
+      "subitems": [
+        {
+          "name": "On Start",
+          "subitems": [],
+          "path": "/blocks/on-start"
+        },
+        {
+          "name": "Loops",
+          "subitems": [
+            {
+              "name": "repeat",
+              "subitems": [],
+              "path": "/blocks/loops/repeat"
+            },
+            {
+              "name": "for",
+              "subitems": [],
+              "path": "/blocks/loops/for"
+            },
+            {
+              "name": "while",
+              "subitems": [],
+              "path": "/blocks/loops/while"
+            },
+            {
+              "name": "for of",
+              "subitems": [],
+              "path": "/blocks/loops/for-of"
+            }
+          ],
+          "path": "/blocks/loops"
+        },
+        {
+          "name": "Logic",
+          "subitems": [
+            {
+              "name": "if",
+              "subitems": [],
+              "path": "/blocks/logic/if"
+            },
+            {
+              "name": "Boolean",
+              "subitems": [],
+              "path": "/blocks/logic/boolean"
+            }
+          ],
+          "path": "/blocks/logic"
+        },
+        {
+          "name": "Variables",
+          "subitems": [
+            {
+              "name": "assign",
+              "subitems": [],
+              "path": "/blocks/variables/assign"
+            },
+            {
+              "name": "change var",
+              "subitems": [],
+              "path": "/blocks/variables/change"
+            },
+            {
+              "name": "var",
+              "subitems": [],
+              "path": "/blocks/variables/var"
+            }
+          ],
+          "path": "/blocks/variables"
+        },
+        {
+          "name": "Math",
+          "subitems": [],
+          "path": "/blocks/math"
+        },
+        {
+          "name": "JavaScript blocks",
+          "subitems": [],
+          "path": "/blocks/javascript-blocks"
+        },
+        {
+          "name": "Custom blocks",
+          "subitems": [],
+          "path": "/blocks/custom"
+        }
+      ],
+      "path": "/blocks"
+    },
+    {
+      "name": "JavaScript",
+      "subitems": [
+        {
+          "name": "Calling",
+          "subitems": [],
+          "path": "/javascript/call"
+        },
+        {
+          "name": "Sequencing",
+          "subitems": [],
+          "path": "/javascript/sequence"
+        },
+        {
+          "name": "Variables",
+          "subitems": [],
+          "path": "/javascript/variables"
+        },
+        {
+          "name": "Operators",
+          "subitems": [],
+          "path": "/javascript/operators"
+        },
+        {
+          "name": "Statements",
+          "subitems": [],
+          "path": "/javascript/statements"
+        },
+        {
+          "name": "Functions",
+          "subitems": [],
+          "path": "/javascript/functions"
+        },
+        {
+          "name": "Types",
+          "subitems": [],
+          "path": "/javascript/types"
+        },
+        {
+          "name": "Classes",
+          "subitems": [],
+          "path": "/javascript/classes"
+        },
+        {
+          "name": "Interfaces",
+          "subitems": [],
+          "path": "/javascript/interfaces"
+        },
+        {
+          "name": "Generics",
+          "subitems": [],
+          "path": "/javascript/generics"
+        }
+      ],
+      "path": "/javascript"
+    },
+    {
+      "name": "Types",
+      "subitems": [
+        {
+          "name": "Number",
+          "subitems": [],
+          "path": "/types/number"
+        },
+        {
+          "name": "String",
+          "subitems": [],
+          "path": "/types/string"
+        },
+        {
+          "name": "Boolean",
+          "subitems": [],
+          "path": "/types/boolean"
+        },
+        {
+          "name": "Array",
+          "subitems": [],
+          "path": "/types/array"
+        },
+        {
+          "name": "Function",
+          "subitems": [],
+          "path": "/types/function"
+        },
+        {
+          "name": "Buffer",
+          "subitems": [
+            {
+              "name": "Using buffers",
+              "subitems": [],
+              "path": "/types/buffer/using-buffers"
+            },
+            {
+              "name": "Number format",
+              "subitems": [],
+              "path": "/types/buffer/number-format"
+            }
+          ],
+          "path": "/types/buffer"
+        }
+      ],
+      "path": "/types"
+    },
+    {
+      "name": "Hardware",
+      "subitems": [
+        {
+          "name": "Data Analysis",
+          "subitems": [
+            {
+              "name": "Plotting with LEDs",
+              "subitems": [],
+              "path": "/device/data-analysis/led-plotting"
+            },
+            {
+              "name": "Viewing Data",
+              "subitems": [],
+              "path": "/device/data-analysis/viewing"
+            },
+            {
+              "name": "Writing Data",
+              "subitems": [],
+              "path": "/device/data-analysis/writing"
+            },
+            {
+              "name": "Generating Data",
+              "subitems": [],
+              "path": "/device/data-analysis/generating"
+            },
+            {
+              "name": "Analyzing Data",
+              "subitems": [],
+              "path": "/device/data-analysis/analyze"
+            },
+            {
+              "name": "Remote Data",
+              "subitems": [],
+              "path": "/device/data-analysis/remote"
+            }
+          ],
+          "path": "/device/data-analysis"
+        },
+        {
+          "name": "Error codes",
+          "subitems": [],
+          "path": "/device/error-codes"
+        },
+        {
+          "name": "Foil circuits",
+          "subitems": [],
+          "path": "/device/foil-circuits"
+        },
+        {
+          "name": "MES events",
+          "subitems": [],
+          "path": "/device/mes-events"
+        },
+        {
+          "name": "Pins",
+          "subitems": [],
+          "path": "/device/pins"
+        },
+        {
+          "name": "Reactive",
+          "subitems": [],
+          "path": "/device/reactive"
+        },
+        {
+          "name": "Screen",
+          "subitems": [],
+          "path": "/device/screen"
+        },
+        {
+          "name": "Serial",
+          "subitems": [],
+          "path": "/device/serial"
+        },
+        {
+          "name": "Servo",
+          "subitems": [],
+          "path": "/device/servo"
+        },
+        {
+          "name": "Simulator",
+          "subitems": [],
+          "path": "/device/simulator"
+        },
+        {
+          "name": "USB",
+          "subitems": [],
+          "path": "/device/usb"
+        },
+        {
+          "name": "WebUSB",
+          "subitems": [
+            {
+              "name": "WebUSB Troubleshoot",
+              "subitems": [],
+              "path": "/device/usb/webusb/troubleshoot"
+            }
+          ],
+          "path": "/device/usb/webusb"
+        },
+        {
+          "name": "Flashing via HID (CMSIS-DAP)",
+          "subitems": [],
+          "path": "/hidflash"
+        }
+      ],
+      "path": "/device"
+    },
+    {
+      "name": "",
+      "subitems": [
+        {
+          "name": "About",
+          "subitems": [],
+          "path": "/about"
+        },
+        {
+          "name": "Support",
+          "subitems": [],
+          "path": "/support"
+        },
+        {
+          "name": "Translate",
+          "subitems": [],
+          "path": "/translate"
+        },
+        {
+          "name": "Sharing projects",
+          "subitems": [],
+          "path": "/share"
+        },
+        {
+          "name": "Offline support",
+          "subitems": [],
+          "path": "/offline"
+        },
+        {
+          "name": "Save",
+          "subitems": [],
+          "path": "/save"
+        }
+      ]
+    },
+    {
+      "name": "",
+      "subitems": [
+        {
+          "name": "Command Line Interface",
+          "subitems": [],
+          "path": "/cli"
+        },
+        {
+          "name": "Visual Studio Code support",
+          "subitems": [],
+          "path": "/code"
+        },
+        {
+          "name": "Blocks Embed",
+          "subitems": [],
+          "path": "/blocks-embed"
+        }
+      ]
+    },
+    {
+      "name": "Projects",
+      "subitems": [
+        {
+          "name": "Flashing Heart",
+          "subitems": [],
+          "path": "/projects/flashing-heart"
+        },
+        {
+          "name": "Smiley Buttons",
+          "subitems": [],
+          "path": "/projects/smiley-buttons"
+        },
+        {
+          "name": "Love Meter",
+          "subitems": [],
+          "path": "/projects/love-meter"
+        },
+        {
+          "name": "Rock Paper Scissors",
+          "subitems": [],
+          "path": "/projects/rock-paper-scissors"
+        },
+        {
+          "name": "Magic Button Trick",
+          "subitems": [],
+          "path": "/projects/magic-button-trick"
+        },
+        {
+          "name": "Coin Flipper",
+          "subitems": [],
+          "path": "/projects/coin-flipper"
+        },
+        {
+          "name": "Salute!",
+          "subitems": [],
+          "path": "/projects/salute"
+        },
+        {
+          "name": "Hack Your Headphones",
+          "subitems": [],
+          "path": "/projects/hack-your-headphones"
+        },
+        {
+          "name": "Banana Keyboard",
+          "subitems": [],
+          "path": "/projects/banana-keyboard"
+        },
+        {
+          "name": "Guitar",
+          "subitems": [],
+          "path": "/projects/guitar"
+        },
+        {
+          "name": "Duct Tape Wallet",
+          "subitems": [],
+          "path": "/projects/wallet"
+        },
+        {
+          "name": "Watch",
+          "subitems": [],
+          "path": "/projects/watch"
+        },
+        {
+          "name": "Soil Moisture",
+          "subitems": [],
+          "path": "/projects/soil-moisture"
+        },
+        {
+          "name": "Plant Watering",
+          "subitems": [],
+          "path": "/projects/plant-watering"
+        },
+        {
+          "name": "Reaction Time",
+          "subitems": [],
+          "path": "/projects/reaction-time"
+        },
+        {
+          "name": "States of Matter",
+          "subitems": [],
+          "path": "/projects/states-of-matter"
+        },
+        {
+          "name": "Mood Radio",
+          "subitems": [],
+          "path": "/projects/mood-radio"
+        },
+        {
+          "name": "Tele-Potato",
+          "subitems": [],
+          "path": "/projects/tele-potato"
+        },
+        {
+          "name": "Hot or Cold",
+          "subitems": [],
+          "path": "/projects/hot-or-cold"
+        },
+        {
+          "name": "Voting Machine",
+          "subitems": [],
+          "path": "/projects/voting-machine"
+        },
+        {
+          "name": "Infection",
+          "subitems": [],
+          "path": "/projects/infection"
+        },
+        {
+          "name": "Fireflies",
+          "subitems": [],
+          "path": "/projects/fireflies"
+        },
+        {
+          "name": "Rock Paper Scissors Teams",
+          "subitems": [],
+          "path": "/projects/rps-teams"
+        },
+        {
+          "name": "Inchworm",
+          "subitems": [],
+          "path": "/projects/inchworm"
+        },
+        {
+          "name": "Milk Carton Robot",
+          "subitems": [],
+          "path": "/projects/milk-carton-robot"
+        },
+        {
+          "name": "Milk Monster",
+          "subitems": [],
+          "path": "/projects/milky-monster"
+        },
+        {
+          "name": "RC Car",
+          "subitems": [],
+          "path": "/projects/rc-car"
+        },
+        {
+          "name": "Timing Gates",
+          "subitems": [],
+          "path": "/projects/timing-gates"
+        },
+        {
+          "name": "Compass",
+          "subitems": [],
+          "path": "/projects/compass"
+        },
+        {
+          "name": "Telegraph",
+          "subitems": [],
+          "path": "/projects/telegraph"
+        },
+        {
+          "name": "Railway Crossing",
+          "subitems": [],
+          "path": "/projects/railway-crossing"
+        },
+        {
+          "name": "Karel",
+          "subitems": [],
+          "path": "/projects/karel"
+        },
+        {
+          "name": "Stopwatch",
+          "subitems": [],
+          "path": "/projects/stopwatch"
+        },
+        {
+          "name": "Name Tag",
+          "subitems": [],
+          "path": "/projects/name-tag"
+        },
+        {
+          "name": "Step counter",
+          "subitems": [],
+          "path": "/projects/step-counter"
+        },
+        {
+          "name": "Servo calibrator",
+          "subitems": [],
+          "path": "/projects/servo-calibrator"
+        },
+        {
+          "name": "Analog Pin Tester",
+          "subitems": [],
+          "path": "/projects/analog-pin-tester"
+        },
+        {
+          "name": "Light Level Meter",
+          "subitems": [],
+          "path": "/projects/light-level-meter"
+        },
+        {
+          "name": "Radio bridge",
+          "subitems": [],
+          "path": "/projects/radio-bridge"
+        },
+        {
+          "name": "Snap the dot",
+          "subitems": [],
+          "path": "/projects/snap-the-dot"
+        },
+        {
+          "name": "Red light green light",
+          "subitems": [],
+          "path": "/projects/red-light-green-light"
+        }
+      ],
+      "path": "/projects"
+    }
+  ],
+  "id": "raspberrypi",
+  "title": "Microsoft MakeCode for RaspberryPi",
+  "name": "makecode.raspberrypi.org",
+  "description": "A Blocks / JavaScript code editor for the RaspberryPi, powered by Microsoft MakeCode.",
+  "htmlDocIncludes": {}
+}
